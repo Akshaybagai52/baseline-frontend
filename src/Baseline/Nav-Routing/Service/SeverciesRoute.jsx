@@ -76,7 +76,7 @@ function SeverciesRoute() {
                             listright1="Website Audit"
                             listright2="Technical SEO"
                             listright3="Content Optimization."
-                            listmright4="SEO, SMO, SMM"
+                            listright4="SEO, SMO, SMM"
                             listright5="Google search Console "
                             listright6="Google analytics "
                             inforight="We offer solutions to bulid and highlight the online business presence and boots sales."
@@ -103,8 +103,8 @@ function SeverciesRoute() {
                             listmiddle2="Custom Payment Gateways using Javascript API"
                             listmiddle3="API integrations Third Party Softwares"
                             listmiddle4="Manage Products, oOders, and Customers"
-                            listmiddle5="Custom Tax Tables "
-                            listmiddle6="Custom Shipping Prices"
+                          
+                           
                             infomiddle="Web develop a high performing, comprehensive Big Commerce solutions for virtual eCommerce stores which is compatible with mobile platforms."
                             iconsmiddle={<i className="brand-icons fa-solid fa-cart-shopping"></i>}
                             iconsmiddle1={<i className="brand-icons fa-solid fa-cart-shopping"></i>}
@@ -116,7 +116,7 @@ function SeverciesRoute() {
                             listright1="Lorem"
                             listright2="Lorem"
                             listright3="Lorem"
-                            list right4="Lorem"
+                            listright4="Lorem"
                             listright5="Lorem "
                             listright6="Lorem "
                             inforight="WE create visual concept, using computer software or only by hand, we create visual concept to communicate ideas that inspire ,inform,and

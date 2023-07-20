@@ -16,13 +16,13 @@ const About = () => {
                                 <h2 className=" aos-animate" style={{ fontSize: "60px", fontWeight: " 700", margin: "15px 0px 31px 0" }}>About<span style={{ color: " rgb(187, 55, 42)" }}>Us</span></h2>
                                 <p>The baseline development group is focused on web services and solution with offices in Mohali and USA. We serve clients all around the world. The inner working of our website have proven vital to our success in online marketing. Connected learning, enhancements and expanding our affiliation with audience members have been our mantras.</p>
                             </div>
-                            <div class="about-line  ">
+                            <div className="about-line  ">
                                 <div className="play-btn">
                                     <i className="fa-solid fa-play-button fs-play-icon fa-play" ></i>
                                 </div>
                                 <div className="play-line ">
 
-                                    <img src="https://baselineitdevelopment.com/assets/images/Line%206.png" style={{ margin: "-7px 29px 0 17", width: "77%" }} alt="Baseline" />
+                                    <img src="https://baselineitdevelopment.com/assets/images/Line%206.png" style={{ margin: "-7px 29px 0 17",}} alt="Baseline" />
 
                                 </div>
                                 <div className="">

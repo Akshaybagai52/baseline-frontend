@@ -22,7 +22,7 @@ const Ourservices = (props) => {
                                 <div className="service-png" >
                                     {props.icons1}
                                 </div>
-                                <div className="severice-info px-3">
+                                <div className="severice-info" style={{paddingLeft:'40px'}}>
                                     <h3 style={{ color: "white", textAlign: "start", fontSize: "16px", fontWeight: "600" }}>
                                         <span>{props.heading1}</span><br></br>{props.heading2}</h3>
                                     <ul style={{ textAlign: "start" }}>
@@ -45,11 +45,11 @@ const Ourservices = (props) => {
                                 <p style={{ fontSize: "16px", padding: "0 17px" }}>{props.infomiddle}</p>
                             </div>
                         </div>
-                        <div className="service-group  hover-content " style={{ background: "#bb372a", margin: "-24px 0" }} >
+                        <div className="service-group hover-content " style={{ background: "#bb372a", margin: "-24px 0" }} >
                             <div className="service-png " >
                                 {props.iconsmiddle1}
                             </div>
-                            <div className="severice-info px-3">
+                            <div className="severice-info" style={{paddingLeft:'40px'}}>
                                 <h3 style={{ color: "white", textAlign: "start", fontSize: "16px", fontWeight: "600" }}>{props.headingmiddle1}</h3>
                                 <ul style={{ textAlign: "start", lineHeight: " 22px" }}>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.listmiddle1}</li>
@@ -78,7 +78,7 @@ const Ourservices = (props) => {
                             <div className="service-png " >
                                 {props.iconsright1}
                             </div>
-                            <div className="severice-info px-3">
+                            <div className="severice-info" style={{paddingLeft:'40px'}}>
                                 <h3 style={{ color: "white", textAlign: "start", fontSize: "16px", fontWeight: "600" }}>{props.headingright1}</h3>
                                 <ul style={{ textAlign: "start" }}>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.listright1}</li>

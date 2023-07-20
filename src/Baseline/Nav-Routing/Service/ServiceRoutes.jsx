@@ -25,15 +25,14 @@ const ServiceRoutes = (props) => {
                             <div className="service-png" >
                                 {props. icons1}
                             </div>
-                            <div className="severice-info px-3">
+                            <div className="severice-info" style={{paddingLeft:'40px'}}>
                                 <h3 style={{ color: "white", textAlign: "start", fontSize: "23px", fontWeight: "600" }}><span>{props.heading1}</span><br></br>{props.heading2}</h3>
                                 <ul style={{ textAlign: "start" }}>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.list1}</li>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.list2}</li>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.list3}</li>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.list4}</li>
-                                    <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.list5}</li>
-                                    <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.list6}</li>
+                                    
 
                                 </ul>
                             </div>
@@ -60,15 +59,15 @@ const ServiceRoutes = (props) => {
                             <div className="service-png " >
                             {props.iconsmiddle1}
                             </div>
-                            <div className="severice-info px-3">
+                            <div className="severice-info" style={{paddingLeft:'40px'}}>
                                 <h3 style={{ color: "white", textAlign: "start", fontSize: "23px", fontWeight: "600" }}>{props.headingmiddle1}</h3>
                                 <ul style={{ textAlign: "start", lineHeight: " 22px" }}>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.listmiddle1}</li>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.listmiddle2} </li>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.listmiddle3}</li>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.listmiddle4} </li>
-                                    <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.listmiddle5} </li>
-                                    <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.listmiddle6} </li>
+                                
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -90,7 +89,7 @@ const ServiceRoutes = (props) => {
                             <div className="service-png " >
                               {props.iconsright1}
                             </div>
-                            <div className="severice-info px-3">
+                            <div className="severice-info"style={{paddingLeft:'40px'}} >
                                 <h3 style={{ color: "white", textAlign: "start", fontSize: "23px", fontWeight: "600" }}>{props.headingright1}</h3>
                                 <ul style={{ textAlign: "start" }}>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.listright1}</li>
@@ -98,7 +97,7 @@ const ServiceRoutes = (props) => {
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}> {props.listright3}</li>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.listright4}</li>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}> {props.listright5}</li>
-                                    <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.listright6}</li>
+                                    
                                 </ul>
                             </div>
                         </div>

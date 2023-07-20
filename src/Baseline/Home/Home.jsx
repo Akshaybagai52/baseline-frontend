@@ -11,7 +11,7 @@ import Srvices from '../Section2/services';
 function Home() {
   return (
     <>
-    <NavBar />
+   
       <Section1 />
       <Srvices />
       <Section3 />

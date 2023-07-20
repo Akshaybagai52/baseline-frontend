@@ -11,7 +11,7 @@ const Blog2 = (props) => {
                         <div className="row your-business-blog">
                             <div className="col-md-7 seo-content">
                                 <div className="hedingseo">
-                                    <h1 style={{ fontSize: "30px" }} ><Link style={{ textDecoration: "none", color: "#343a40" }} to={$`{link}`}>{props.heading}</Link></h1>
+                                    <h1 style={{ fontSize: "30px" }} ><Link style={{ textDecoration: "none", color: "#343a40" }} to={props.link}>{props.heading}</Link></h1>
 
                                     <div className="inrp" >
                                         <p  style={{ fontSize: "17px",lineHeight:'29px' }}>{props.dscp}</p>
@@ -55,7 +55,7 @@ const Blog2 = (props) => {
                                 <div className="svg-blog-seo">
 
                                     <div className="hedingseo">
-                                        <h1 style={{ fontSize: "30px" }} ><a style={{ textDecoration: "none", color: "#343a40" }} href={link1}>{props.heading1}</a></h1>
+                                        <h1 style={{ fontSize: "30px" }} ><a style={{ textDecoration: "none", color: "#343a40" }} href={props.link1}>{props.heading1}</a></h1>
                                         <div className="inrp">
                                             <p style={{ fontSize: "17px",lineHeight:'29px' }}>{props.dscp1}</p>
                                         </div>
