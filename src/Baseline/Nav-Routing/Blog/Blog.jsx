@@ -10,7 +10,7 @@ import image5 from '../../../image/seoexprt.png';
 import image6 from '../../../image/frontend-pngg.png';
 import image7 from '../../../image/website-development-team-front-laptop-build-website-65709-1.jpg';
 import Blog2 from './Blog2';
-import { Link } from 'react-router-dom';
+
 const Blog = () => {
   return (
     <>
@@ -80,7 +80,7 @@ const Blog = () => {
               heading1="What Should You Consider When Developing Your Website "
               dscp1="When developing a website, content is one of the most important aspects to consider.
                It is the primary means by which you communicate with your audience, and it plays a crucial role in driving traffic and engagement."
-
+               
             />
 
           </div>
